@@ -10,7 +10,7 @@ const userExpensesListComponent = props => {
                 renderItem={({ item, index }) => 
                 <View key = {index} style ={styles.items}>
                     <Text style={styles.itemPurpose}>{item.purpose}</Text>
-                    <Text style = {styles.itemCost}>{item.cost}</Text>
+                    <Text style = {styles.itemCosts}>{item.cost}</Text>
                     <TouchableOpacity
                         style = {styles.cancelWrapper}
                         onPress = {() => props.deleteUserExpense(index)}>
@@ -57,10 +57,11 @@ const styles = StyleSheet.create({
         textAlign: "left",
         width: "65%"
     },
-    itemCost: {
-        color: constans.gradientEnd,
+    itemCosts: {
+        color: "blue",
         fontSize: 20,
         marginTop: 1.5,
+        backgroundColor: "blue"
     },
     cancelWrapper: {
         width: 20,

@@ -41,18 +41,19 @@ export default class CalculateScreen extends React.Component {
         await this.setState({
             userExpenses: [...this.state.userExpenses, {
                 purpose: this.state.expense,
-                cost: this.state.cost
+                amount: this.state.cost
             }],
             inputValue: '',
             numericInputValue: ''
         });
         this.setState({showBottomButtons: true});
+        console.log(this.state.cost)
         
     }
 
     getUserExpense = (value) => {
          this.setState({
-            expense: '',
+            // expense: '', tu tez
             expense: value,
             inputValue: value,
         });
@@ -60,14 +61,13 @@ export default class CalculateScreen extends React.Component {
 
     getUserCost = (value) => {
          this.setState({
-            cost: 0,
+            // cost: 0,
             cost: value,
             numericInputValue: value
         });
     }
 
     addNewMember = () => {
-        
         const userExpenses = Object.assign([], this.state.userExpenses);
         const allUsers = Object.assign([], this.state.allUsersExpenses);
         const userName = this.state.userName;
@@ -89,12 +89,43 @@ export default class CalculateScreen extends React.Component {
         });
     }
 
+    makeCalculation = async () => {
+        await this.addNewMember();
+        let result;
+        try {
+            let response = await fetch('http://192.168.0.157:8000/api/bill', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    name: "testowy rachunek",
+                    participants: this.state.allUsersExpenses,
+                })
+            });
+            let responseJson = await response.json();
+            result = responseJson;
+        }
+        catch (error) {
+            console.error(error);
+        }
+        console.log(result);
+        this.props.navigation.navigate(
+            'ShowBill', {
+                bill: {
+                    name: "testowy rachunek",
+                    participants: this.state.allUsersExpenses,
+                },
+                transactions: result,
+            });
+    }
+
     deleteUserExpense = async (id) => {
         const userExpenses = Object.assign([], this.state.userExpenses);
         userExpenses.splice(id, 1);
         this.setState({userExpenses: userExpenses});
         // console.log(this.state.userExpenses)
-        
     }
 
     render() {
@@ -156,7 +187,8 @@ export default class CalculateScreen extends React.Component {
                 {this.state.showBottomButtons && 
                     <BottomButtonsComponent 
                         navigate = {navigate}
-                        addNewMember = {this.addNewMember}/>}
+                        addNewMember = {this.addNewMember}
+                        makeCalculation = {this.makeCalculation}/>}
             </LinearGradient>
            
 

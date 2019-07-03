@@ -70,7 +70,7 @@ export default class MainScreen extends React.Component {
                     style = {styles.buttonView}>
                     <TouchableOpacity
                         style = {styles.startButton}
-                        onPress={() => navigate('Calculate', { name: 'Jane' })}>
+                        onPress={() => navigate('Calculate')}>
                         <Image 
                             source = {require("../assets/accounting.png")}
                             style = {styles.startButtonImg}/>

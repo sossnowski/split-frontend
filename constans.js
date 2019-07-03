@@ -9,5 +9,5 @@ export default constans = {
     gradientEndY: -0.1,
     gradientLocationFirst: 0,
     gradientLocationSecond: 1,
-
+    postUrl: "godutch.com-dev/api/bill",
 }

@@ -9,7 +9,7 @@ const bottomButtonsComponent = props => {
                     style = {styles.buttonView}>
                     <TouchableOpacity
                         style = {styles.startButton}
-                        onPress={props.addNewMember}>
+                        onPress={props.makeCalculation}>
                         <Image 
                             source = {require("../../assets/accounting.png")}
                             style = {styles.startButtonImg}/>
@@ -23,7 +23,7 @@ const bottomButtonsComponent = props => {
                         }}/>
                     <TouchableOpacity
                         style = {styles.startButton}
-                        onPress={() => props.navigate('Calculate')}>
+                        onPress={props.addNewMember}>
                         <Image 
                             source = {require("../../assets/view.png")}
                             style = {styles.startButtonImg}/>
