@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="094bbb32-e794-4601-bcb6-b85a181e5c1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/ShowBillScreen/billDisplayComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ShowBillScreen/transactionsListComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/ShowCalculation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CalculateScreen/bottomButtonsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/CalculateScreen/bottomButtonsComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CalculateScreen/userExpensesListComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/CalculateScreen/userExpensesListComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constans.js" beforeDir="false" afterPath="$PROJECT_DIR$/constans.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/CalculateScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/CalculateScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/MainScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/MainScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/ShowBill.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ShowBill.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +20,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screens/CalculateScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3564">
+            <state relative-caret-position="-272">
               <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/ShowBillScreen/transactionsListComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -40,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/ShowBillScreen/billDisplayComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
+            <state relative-caret-position="1449">
               <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -50,22 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/CalculateScreen/userExpensesListComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screens/ShowBill.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="75" column="67" selection-start-line="75" selection-start-column="67" selection-end-line="75" selection-end-column="67" />
+            <state relative-caret-position="175">
+              <caret line="64" column="59" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -85,11 +77,11 @@
         <option value="$PROJECT_DIR$/constans.js" />
         <option value="$PROJECT_DIR$/screens/MainScreen.js" />
         <option value="$PROJECT_DIR$/components/ShowBillScreen/transactionsListComponent.js" />
-        <option value="$PROJECT_DIR$/screens/ShowBill.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/components/ShowBillScreen/billDisplayComponent.js" />
         <option value="$PROJECT_DIR$/screens/CalculateScreen.js" />
         <option value="$PROJECT_DIR$/components/CalculateScreen/userExpensesListComponent.js" />
+        <option value="$PROJECT_DIR$/screens/ShowBill.js" />
       </list>
     </option>
   </component>
@@ -153,6 +145,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -183,12 +176,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562135526652</updated>
-      <workItem from="1562135528950" duration="15888000" />
+      <workItem from="1562135528950" duration="18906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15888000" />
+    <option name="totallyTimeSpent" value="18906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
@@ -201,7 +194,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -257,16 +250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/ShowBillScreen/transactionsListComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -277,20 +260,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/ShowBill.js">
+    <entry file="file://$PROJECT_DIR$/components/CalculateScreen/userExpensesListComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="75" column="67" selection-start-line="75" selection-start-column="67" selection-end-line="75" selection-end-column="67" />
+        <state relative-caret-position="966">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/ShowBillScreen/billDisplayComponent.js">
+    <entry file="file://$PROJECT_DIR$/components/ShowBillScreen/transactionsListComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        <state relative-caret-position="651">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -299,7 +282,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/screens/CalculateScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3564">
+        <state relative-caret-position="-272">
           <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -307,10 +290,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/CalculateScreen/userExpensesListComponent.js">
+    <entry file="file://$PROJECT_DIR$/components/ShowBillScreen/billDisplayComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        <state relative-caret-position="1449">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/ShowBill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="64" column="59" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

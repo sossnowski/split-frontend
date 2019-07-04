@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { StyleSheet, Text, View, Button, ScrollView } from 'react-native';
 import TransactionsListComponents from '../components/ShowBillScreen/transactionsListComponent';
 import BillDisplayComponent from '../components/ShowBillScreen/billDisplayComponent';
 
@@ -62,11 +62,12 @@ export default class ShowBill extends React.Component {
 
     constructor(props) {
         super(props);
+        console.log(this.props.navigation.state.params.bill)
     }
     render() {
         const { navigate } = this.props.navigation;
         return (
-            <View>
+            <ScrollView scrollEnabled = {true}>
                 <Text style = {styles.sectionHeader}>Transactions</Text>
                 <TransactionsListComponents
                     transactions = {this.props.navigation.state.params.transactions}
@@ -75,7 +76,7 @@ export default class ShowBill extends React.Component {
                 <BillDisplayComponent
                     bill = {this.props.navigation.state.params.bill}
                 />
-            </View>
+            </ScrollView>
         );
     }
 }
